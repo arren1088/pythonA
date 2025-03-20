@@ -3,17 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>精美表單</title>
+    <title>資管導論 -登入</title>
+    <link rel="stylesheet" href="/static/css/style.css">
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-            font-family: Arial, sans-serif;
-            margin: 0;
-        }
         .form-container {
             background: white;
             padding: 20px;
@@ -65,6 +57,21 @@
     </style>
 </head>
 <body>
+<header>
+  <div class="header-container">
+    <div class="title">資訊管理導論＿陳恩儒</div>
+    <nav>
+      <ul>
+          <li><a href="/">首頁</a></li>
+          <li><a href="/mis">MIS</a></li>
+          <li><a href="/today">顯示日期時間</a></li>
+          <li><a href="/welcome?nick=EJ.C">傳送使用者暱稱</a></li>
+          <li><a href="/account">傳網頁表單傳值</a></li>
+          <li><a href="/about">關於我</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
     <div class="form-container">
         <h2>登入表單</h2>
         <form action="#" method="post">
@@ -78,4 +85,7 @@
         </form>
     </div>
 </body>
+<footer>
+  <p>&copy; 2025 靜宜資管 陳恩儒 - 版權所有</p>
+</footer>
 </html>

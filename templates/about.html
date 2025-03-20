@@ -3,11 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>陳恩儒簡介</title>
-  <style type="text/css">
-    * { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
-    h1 {color:blue; font-size:60px;}
-    h2 {color:#33ff33; font-size:40px;}
+  <title>資管導論 -關於我</title>
+    <link rel="stylesheet" href="/static/css/style.css">
   </style>
   <script>
     function change1() {
@@ -22,6 +19,21 @@
   </script>
 </head>
 <body>
+<header>
+  <div class="header-container">
+    <div class="title">資訊管理導論＿陳恩儒</div>
+    <nav>
+      <ul>
+          <li><a href="/">首頁</a></li>
+          <li><a href="/mis">MIS</a></li>
+          <li><a href="/today">顯示日期時間</a></li>
+          <li><a href="/welcome?nick=EJ.C">傳送使用者暱稱</a></li>
+          <li><a href="/account">傳網頁表單傳值</a></li>
+          <li><a href="/about">關於我</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 <table width="70%">
   <tr>
     <td>
@@ -53,4 +65,7 @@ Gmail：<a href="https://mail.google.com">前往</a><br>
 </table>
 <?php echo date("Y-m-d")?>
 </body>
+<footer>
+  <p>&copy; 2025 靜宜資管 陳恩儒 - 版權所有</p>
+</footer>
 </html>

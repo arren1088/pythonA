@@ -113,7 +113,7 @@ footer {
   color: #fff;
   text-align: center;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: auto;
   position: relative;
   width: 100%;
 }
@@ -259,4 +259,8 @@ a:hover {
 audio, iframe {
   margin-top: 10px;
   border-radius: 8px;
+}
+
+main {
+    flex: 1; /* 讓主要內容區域填充剩餘空間 */
 }
